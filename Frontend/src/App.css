@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(133, 62, 199);
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+h1{
+    margin: 0;
+    padding-top: 2rem;
+    letter-spacing: 0.5rem;
+}
+.TodoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 40%;
+    min-height: 35rem;
+    height: auto;
+    background-color: rgb(33, 6, 33);
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 20px;
+    box-shadow: -1px -1px 54px 1px rgba(0,0,0,0.65);
+-webkit-box-shadow: -1px -1px 54px 1px rgba(0,0,0,0.65);
+-moz-box-shadow: -1px -1px 54px 1px rgba(0,0,0,0.65);
+}
+
+.TodoInput{
+    padding-left: 1.2rem;
+    width: 100%;
+}
+.TodoInput > button{
+    cursor: pointer;
+    margin: 2rem;
+    background-color: rgb(132, 44, 213);
+    color: white;
+    height: 2.3rem;
+    width: 5rem;
+    border-radius: 8px; 
+}
+.TodoInput > input{
+    padding-left: 10px;
+    height: 2rem;
+    width: 50%;
+    border-radius: 8px;
+}
+.TodoList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{  
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer; 
+   background-color: blueviolet;
+   border-radius: 10px;
+   padding: 1rem;
+   margin: 1rem;
+   box-shadow: -1px -1px 54px 1px rgba(74, 7, 87, 0.65);
+-webkit-box-shadow: -1px -1px 54px 1px rgba(74, 7, 87, 0.65);
+-moz-box-shadow: -1px -1px 54px 1px rgba(74, 7, 87, 0.65);
+}
+li label{
+    padding-left: 1rem;
+}
+#task-button{
+    cursor: pointer;
+    height: 2.3rem;
+    width: auto;
+    border-radius: 8px;
+    
+}
+#checkbox{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
+    top: 0.5rem;
+    cursor: pointer;
+    height: 1.5rem;
+    width: 30%;
+}
+
+
+@media(max-width:1033px)and(min-width:801px){
+    .TodoWrapper{
+        width: 65%;
+    }
+    .TodoList{
+        width: 80%;
+    }
+}
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+@media(max-width:800px){
+    .TodoWrapper{
+        width: 80%;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
+.loginReg{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    background-image: linear-gradient(360deg, rgb(90, 38, 90), rgb(203, 183, 183));
+  }    
+.lg-input{
+    margin: 1rem;
+}
+.auth-form-container{
+    background-color: white;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+button{
+    border-radius: 5px;
+    height: 1.7rem;
+}
