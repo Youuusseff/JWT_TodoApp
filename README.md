@@ -1,2 +1,2 @@
 # JWT_TodoApp
-This a simple TodoList to practice with the JWT authentication
+This is a TodoList application built with React for the front-end and Spring Boot for the back-end, designed to help me practice and deepen my understanding of JWT (JSON Web Token) authentication. The primary goal of this project is to implement secure authentication and authorization using JWT. Users can create, update, and delete their tasks after securely logging in, with token-based access control ensuring secure API communication between the client and server.
